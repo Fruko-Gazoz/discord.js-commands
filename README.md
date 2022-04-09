@@ -33,9 +33,9 @@ client.login("token")```
 command file (commands/ping.js)
 
 ```js
-  module.exports = {
-    name: "ping",
-    description: "Replies with Pong!",
-//  options: [] => interaction options (optional),
-//  guild: "" => guild id (optional)
-  }```
+module.exports = {
+  name: "ping",
+  description: "Replies with Pong!"
+  options: [] => interaction options (optional)
+  guild: "" => guild id (optional)
+}```
