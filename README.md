@@ -25,7 +25,7 @@ const sync_commands = require("discord.js-commands")
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`)
 
-  sync_commands(client, "(commands folder name) exp => **commands**")
+  sync_commands(client, (commands folder name) exp => "commands")
 })
 
 client.login("token")```
