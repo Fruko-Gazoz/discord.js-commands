@@ -6,7 +6,7 @@ A package to Sync your bot's Slash Commands and manage interactions
 - Fast register Slash Commands
 - Auto deleting Slash Commands
 
-## Exemple Usage
+## Example Usage
 
 Instaling discord.js-commands
 
@@ -25,7 +25,17 @@ const sync_commands = require("discord.js-commands")
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`)
 
-  sync_commands(client, (commands folder name) exp => "commands")
+  sync_commands(client, (commands folder name) "commands")
 })
 
 client.login("token")```
+
+command file (commands/ping.js)
+
+```js
+  module.exports = {
+    name: "ping",
+    description: "Replies with Pong!",
+//  options: [] => interaction options (optional),
+//  guild: "" => guild id (optional)
+  }```
