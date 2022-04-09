@@ -35,8 +35,9 @@ command file (commands/ping.js)
 
 ```js
 module.exports = {
-  name: "ping",
-  description: "Replies with Pong!"
-//options: [] => interaction options (optional)
-//guild: "" => guild id (optional)
-}```
+   name: "ping",
+   description: "Replies with Pong!"
+// options: [] => interaction options (optional)
+// guild: "" => guild id (optional)
+}
+```
