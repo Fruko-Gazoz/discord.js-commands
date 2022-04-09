@@ -28,7 +28,8 @@ client.on("ready", () => {
   sync_commands(client, (commands folder name) "commands")
 })
 
-client.login("token")```
+client.login("token")
+```
 
 command file (commands/ping.js)
 
