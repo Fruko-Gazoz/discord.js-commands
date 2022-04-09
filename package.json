@@ -1,0 +1,20 @@
+{
+  "name": "discord.js-commands",
+  "version": "1.0.0",
+  "description": "A package to Sync your bot's Slash Commands and manage interactions",
+  "main": "index.js",
+  "author": "FrukoGazoz",
+  "keywords": [
+    "discord",
+    "discord commands",
+    "discord commands sync",
+    "commands sync",
+    "sync commands",
+    "discord slash sync"
+  ],
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/discordjs/discord.js.git"
+	},
+  "license": "MIT"
+}
