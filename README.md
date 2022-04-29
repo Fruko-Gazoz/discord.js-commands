@@ -1,17 +1,17 @@
-# discord.js-commands
+# discord.js-commands-handler
 ## About 
 A package to Sync your bot's Slash Commands and manage interactions
 
-- Slash Commands handler
-- Fast register Slash Commands
-- Auto deleting Slash Commands
+- Quickly registers new Slash Commands
+- Auto deletes deleted Slash Commands
+- Managing Interactions
 
 ## Example Usage
 
-Instaling discord.js-commands
+Instaling discord.js-commands-handler
 
 ```sh-session
-npm i discord.js-commands
+npm i discord.js-commands-handler
 ```
 
 index.js (exemple)
@@ -20,12 +20,12 @@ index.js (exemple)
 const { Client, Intents } = require("discord.js")
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] })
 
-const sync_commands = require("discord.js-commands")
+const sync_commands = require("discord.js-commands-handler")
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`)
 
-  sync_commands(client, (commands folder name) "commands")
+  sync_commands(client, "commands")
 })
 
 client.login("token")
